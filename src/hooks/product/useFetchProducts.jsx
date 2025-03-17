@@ -1,7 +1,7 @@
 import { useQuery } from "@tanstack/react-query";
 
 function useFetchProducts() {
-  const apiUrl = "https://fakestoreapi.com/products";
+  const apiUrl = `${import.meta.env.VITE_BACKEND_FAKESTORE}products`;
 
   const { data, error, isLoading, isFetched, refetch } = useQuery({
     queryKey: ["products"], 

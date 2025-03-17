@@ -1,7 +1,7 @@
 import { useQuery } from "@tanstack/react-query";
 
 function useFetchProductById(productId) {
-  const apiUrl = productId ? `https://fakestoreapi.com/products/${productId}` : null;
+  const apiUrl = productId ? `${import.meta.env.VITE_BACKEND_FAKESTORE}products/${productId}` : null;
 
   const { data, error, isLoading, isFetched, refetch } = useQuery({
     queryKey: ["product", productId],
