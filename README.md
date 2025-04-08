@@ -1,7 +1,3 @@
-Aquí tienes un ejemplo de `README.md` para presentar tu proyecto:
-
----
-
 # Fake Store Front
 
 ## Descripción
