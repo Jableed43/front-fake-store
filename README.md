@@ -1,71 +1,71 @@
 # Fake Store Front
 
-## Descripción
+## Description
 
-Este es un proyecto de Frontend desarrollado como parte de un desafío técnico. La aplicación interactúa con la [Fake Store API](https://fakestoreapi.com/docs) para mostrar una lista de productos y permite a los usuarios ver los detalles de cada producto. Además, se ha implementado un carrito de compras donde los usuarios pueden agregar productos.
+This is a Frontend project developed as part of a technical challenge. The application interacts with the [Fake Store API](https://fakestoreapi.com/docs) to display a list of products and allows users to view the details of each product. Additionally, a shopping cart has been implemented where users can add products.
 
-## Funcionalidades Implementadas
+## Implemented Features
 
-1. **Visualización de Productos:**
-   - Obtención de datos desde la API FakeStore para mostrar una lista de productos en la pantalla principal.
-   - Los usuarios pueden ver la información básica de cada producto, como el título, precio y una imagen.
+1. **Product Display:**
+   - Fetches data from the FakeStore API to show a list of products on the main screen.
+   - Users can see basic information for each product, such as title, price, and an image.
 
-2. **Vista Detalle de Producto:**
-   - Los usuarios pueden hacer clic en cualquier producto de la grilla para ver los detalles completos de ese producto, como la descripción y la valoración.
+2. **Product Detail View:**
+   - Users can click on any product in the grid to view the complete details of that product, such as the description and rating.
 
-3. **Funcionalidad de Búsqueda:**
-   - Implementación de una barra de búsqueda para filtrar los productos por nombre en tiempo real.
+3. **Search Functionality:**
+   - Implementation of a search bar to filter products by name in real-time.
 
-4. **Carrito de Compras:**
-   - Los usuarios pueden agregar productos al carrito de compras.
-   - El carrito de compras muestra los productos agregados, la cantidad y el total.
+4. **Shopping Cart:**
+   - Users can add products to the shopping cart.
+   - The shopping cart displays the added products, quantity, and total.
 
-5. **Login y Registro de usuarios:**
-   - Para mantener la privacidad y seguridad del sistema he implementado manejo de usuarios, utilizando un servicio aparte.
+5. **User Login and Registration:**
+   - To maintain the privacy and security of the system, user management has been implemented using a separate service.
 
-## Tecnologías Utilizadas
+## Technologies Used
 
-- **React**: Libreria utilizada para desarrollar la aplicación.
-- **Vite**: Herramienta de construcción para la configuración y el desarrollo rápido de la aplicación.
-- **Material-UI**: Biblioteca de componentes para React que proporciona una interfaz de usuario atractiva y fácil de usar.
-- **React Router**: Librería para manejar la navegación entre las diferentes pantallas.
-- **React Query**: Para realizar la gestión de la obtención de datos y el manejo de estados.
-- **SweetAlert2**: Para mostrar notificaciones en caso de error o éxito, como alertas de login, carrito, etc.
-- **JWT Decode**: Para manejar la decodificación de tokens JWT, necesaria para la autenticación.
+- **React**: Library used to develop the application.
+- **Vite**: Build tool for fast application configuration and development.
+- **Material-UI**: Component library for React that provides an attractive and easy-to-use user interface.
+- **React Router**: Library for handling navigation between different screens.
+- **React Query**: For managing data fetching and state management.
+- **SweetAlert2**: For displaying notifications in case of error or success, such as login alerts, cart alerts, etc.
+- **JWT Decode**: For handling the decoding of JWT tokens, necessary for authentication.
 
-## Requerimientos
+## Requirements
 
-- **Node.js**: La versión recomendada para correr este proyecto es la `v18.3.1` o superior.
-- **NPM**: Para la gestión de dependencias y ejecución de scripts.
+- **Node.js**: The recommended version to run this project is `v18.3.1` or higher.
+- **NPM**: For dependency management and script execution.
 
-## Instrucciones de Instalación
+## Installation Instructions
 
-1. Clona este repositorio:
-
-   ```bash
-   git clone https://github.com/Jableed43/front-fake-store.git
-   ```
-
-2. Navega al directorio del proyecto:
+1. Clone this repository:
 
    ```bash
-   cd fake-store-front
+   git clone [https://github.com/Jableed43/front-fake-store.git](https://github.com/Jableed43/front-fake-store.git)
    ```
 
-3. Instala las dependencias del proyecto:
+2.  Navigate to the project directory:
 
-   ```bash
-   npm install
-   ```
+    ```bash
+    cd fake-store-front
+    ```
 
-4. Inicia el servidor de desarrollo:
+3.  Install the project dependencies:
 
-   ```bash
-   npm run dev
-   ```
+    ```bash
+    npm install
+    ```
 
-   Esto iniciará el servidor de desarrollo en `http://localhost:3000` (o el puerto configurado).
+4.  Start the development server:
 
-## Scripts Disponibles
+    ```bash
+    npm run dev
+    ```
 
-- `npm run dev`: Inicia el servidor de desarrollo con Vite.
+    This will start the development server at `http://localhost:3000` (or the configured port).
+
+## Available Scripts
+
+  - `npm run dev`: Starts the development server with Vite.
